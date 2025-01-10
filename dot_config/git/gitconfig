@@ -1,0 +1,10 @@
+[core]
+    editor = vim
+[user]
+	name = Tom G. Huang
+	email = tomghuang@surreylabs.com
+[credential]
+    helper = manager
+[commit]
+    template = ~/.git-commit-template
+
