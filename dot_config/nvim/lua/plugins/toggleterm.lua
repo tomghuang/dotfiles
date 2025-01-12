@@ -2,7 +2,7 @@ return {
   {
     "akinsho/toggleterm.nvim",
     enabled = true,
-    lazy = true,
+    lazy = false,
     cmd = { "ToggleTerm" },
     keys = {
       {
@@ -49,7 +49,7 @@ return {
       {
         "<leader>TT",
         function()
-          require("toggleterm").toggle(1, 100, vim.loop.cwd(), "tab")
+          require("toggleterm").toggle(1, 100, vim.fn.getcwd(), "tab")
         end,
         desc = "ToggleTerm (tab cwd_dir)",
       },
@@ -70,13 +70,7 @@ return {
       -- on_stderr = fun(t: Terminal, job: number, data: string[], name: string) -- callback for processing output on stderr
       -- on_exit = fun(t: Terminal, job: number, exit_code: number, name: string) -- function to run when terminal process exits
       on_open = function(term)
-        vim.api.nvim_buf_set_keymap(
-          term.bufnr,
-          "t",
-          "<Esc>",
-          "<C-\\><C-n>",
-          { noremap = true, silent = true }
-        )
+        vim.api.nvim_buf_set_keymap(term.bufnr, "t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true })
       end,
       highlights = {
         -- highlights which map to a highlight group name and a table of it's values
@@ -85,7 +79,7 @@ return {
           guibg = "#1f1f1f",
         },
         NormalFloat = {
-          link = '#1f1f1f'
+          guibg = "#1f1f1f",
         },
       },
       hide_numbers = true, -- hide the number column in toggleterm buffers
