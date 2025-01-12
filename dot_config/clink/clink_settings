@@ -1,0 +1,64 @@
+# name: A .clinkprompt file to use for the prompt
+# type: string
+clink.customprompt = C:\Opt\clink\themes\oh-my-posh.clinkprompt
+
+# name: Argument color
+# type: color
+color.arg = bold
+
+# name: Argument info color
+# type: color
+color.arginfo = yellow
+
+# name: Shell command completions
+# type: color
+color.cmd = bold
+
+# name: Color for < and > redirection symbols
+# type: color
+color.cmdredir = bold
+
+# name: Color for & and | command separators
+# type: color
+color.cmdsep = bold
+
+# name: Color for comment row
+# type: color
+color.comment_row = bright white on cyan
+
+# name: Description completion color
+# type: color
+color.description = bright cyan
+
+# name: Doskey completions
+# type: color
+color.doskey = bold cyan
+
+# name: Filtered completion color
+# type: color
+color.filtered = bold
+
+# name: Flag color
+# type: color
+color.flag = default
+
+# name: For user-interaction prompts
+# type: color
+color.interact = bold
+
+# name: Message area color
+# type: color
+color.message = default
+
+# name: Unexpected argument color
+# type: color
+color.unexpected = default
+
+# name: Path to oh-my-posh program.
+# type: string
+ohmyposh.exepath = C:\Opt\oh-my-posh\bin\oh-my-posh.exe
+
+# name: The oh-my-posh theme to use.
+# type: string
+ohmyposh.theme = D:\Projects\dotfiles\dot_config\oh-my-posh\themes\tomghuang.omp.json
+
