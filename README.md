@@ -24,6 +24,12 @@ C:\Opt\clink
 
 Clink configuration is under:
 C:\Users\tomgh\clink_settings
+C:\Users\tomgh\clink_aliases
+
+To add the aliases into Clink, we have to use the following command in the Windows Terminal setting:
+%SystemRoot%\System32\cmd.exe /s /k "C:\\Opt\\clink\\clink_x64.exe inject --profile C:\\Users\\tomgh && doskey.exe /macrofile=C:\\Users\\tomgh\\clink_aliases"
+
+As you can see, the key is calling the doskey command and set the alias file with the /macrofile command-line option.
 
 ## Git
 
