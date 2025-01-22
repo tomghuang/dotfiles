@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "25824b6a08c08ac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1154816c47142c9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "teopa-4.01.51-dep-cfg-UseElektra.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "abdb8e32eb23a3ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "580764fe3763bffe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "317e7e1ad56b8671",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1ff29faca747b22b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ctemplate",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332
+  },
+  "right": {
+    "id": "5822d3cdf9768fad",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c52d7a020f38791",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "051425d07f999ca6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "teopa-4.01.51-dep-cfg-UseElektra.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d1154816c47142c9",
+  "lastOpenFiles": [
+    "teopa-4.01.50-dep-cfg-UseSQLite.md",
+    "teopa-2.03.03-int-sdk-ApiPatterns.md",
+    "teopa-6.03.00-swe-tst.md",
+    "teopa-2.03.14-int-sdk-ImplementStaticLibrary.md",
+    "teopa-2.03.02-int-sdk-DesignFileLayout.md",
+    "teopa-1.00.00-err.md",
+    "teopa-4.01.00-dep-cfg.md",
+    "teopa-5.05.00-doc-gen.md",
+    "teopa-3.07.00-ext-plg.md",
+    "teopa-3.00.00-ext.md"
+  ]
+}
