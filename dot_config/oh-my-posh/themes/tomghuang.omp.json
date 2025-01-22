@@ -21,7 +21,7 @@
         {
           "properties": {
             "cache_duration": "none",
-            "style": "full"
+            "style": "folder"
           },
           "template": " </>{{ .Path }} ",
           "foreground": "#2E3440",

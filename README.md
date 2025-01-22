@@ -17,6 +17,9 @@ C:\Opt\oh-my-posh
 Oh My Posh configuration is in:
 C:\Opt\oh-my-posh\themes
 
+My own theme (tomghuang.omp.json) is based on Powershell-nord-theme:
+https://github.com/AntonRyadovoy/Powershell-nord-theme
+
 ## Clink
 
 Clink is installed under:
@@ -30,6 +33,9 @@ To add the aliases into Clink, we have to use the following command in the Windo
 %SystemRoot%\System32\cmd.exe /s /k "C:\\Opt\\clink\\clink_x64.exe inject --profile C:\\Users\\tomgh && doskey.exe /macrofile=C:\\Users\\tomgh\\clink_aliases"
 
 As you can see, the key is calling the doskey command and set the alias file with the /macrofile command-line option.
+
+For more information:
+https://chrisant996.github.io/clink/clink.html
 
 ## Git
 

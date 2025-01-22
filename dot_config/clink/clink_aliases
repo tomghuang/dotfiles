@@ -1,2 +1,7 @@
-ll=eza -alF --icons $*
-ls=eza $*
+ll=lsd -alF $*
+ls=lsd $*
+pwd=cd
+ifconfig=ipconfig $*
+artisan=php artisan $*
+clear=cls
+cat=type $1
