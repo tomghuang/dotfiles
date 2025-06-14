@@ -19,6 +19,14 @@
           "style": "diamond"
         },
         {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\ue0b0",
+          "foreground": "#ffffff",
+          "background": "#8fbcbb",
+          "template": "  {{ .Full }} "
+        },
+        {
           "properties": {
             "cache_duration": "none",
             "style": "folder"
